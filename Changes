@@ -1,4 +1,9 @@
 ---
+version: 0.05
+date:    Mon Jul 28 07:22:55 PDT 2014
+changes:
+- Fix typo in Meta nometaindex => metanoindex
+---
 version: 0.04
 date:    Mon Jul 28 07:14:27 PDT 2014
 changes:

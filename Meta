@@ -1,7 +1,7 @@
 =meta: 0.0.1
 
 name: Alt-Sex-INGY
-version: 0.04
+version: 0.05
 abstract: INGY's Alternate version of Sex
 homepage: https://metacpan.org/release/Alt-Sex-Ingy
 
@@ -24,7 +24,7 @@ devel:
   irc: irc.freenode.net#pkg
 
 =cpan:
-  nometaindex:
+  metanoindex:
     lib/Sex.pm: file
 
 =travis:
