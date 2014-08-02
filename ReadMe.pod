@@ -25,8 +25,6 @@ This version of Sex supports the participation of multiple random entities.
 
 =over
 
-=over
-
 =item * L<Alt>
 
 =item * L<Sex>

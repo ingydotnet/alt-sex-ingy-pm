@@ -1,12 +1,12 @@
 =meta: 0.0.1
 
 name: Alt-Sex-INGY
-version: 0.05
+version: 0.06
 abstract: INGY's Alternate version of Sex
 homepage: https://metacpan.org/release/Alt-Sex-Ingy
 
 license: perl
-copyright: 2001-2014. Ingy döt Net.
+copyright: 2012-2014. Ingy döt Net.
 author:
   name: Ingy döt Net
   email: ingy@cpan.org
