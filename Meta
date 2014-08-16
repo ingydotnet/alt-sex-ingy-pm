@@ -1,36 +1,30 @@
-=meta: 0.0.1
+=meta: 0.0.2
 
 name: Alt-Sex-INGY
-version: 0.09
+version: 0.10
 abstract: INGY's Alternate version of Sex
 homepage: https://metacpan.org/release/Alt-Sex-Ingy
-
+language: perl
 license: perl
-copyright: 2012-2014. Ingy döt Net.
+copyright: 2012-2014
+
 author:
   name: Ingy döt Net
   email: ingy@cpan.org
+  homepage: http://ingy.net
   github: ingydotnet
   twitter: ingydotnet
   freenode: ingy
-  homepage: http://ingy.net
-
-requires:
-  perl: 5.8.1
-
-test:
-  generate:
-    000-require-modules.t: true
 
 devel:
   git: https://github.com/ingydotnet/alt-sex-ingy-pm
   bug: https://github.com/ingydotnet/alt-sex-ingy-pm/issues
   irc: irc.freenode.net#pkg
 
-=cpan:
+requires:
+  perl: 5.8.1
+
+=zild:
+  test-000: require
   metanoindex:
     lib/Sex.pm: file
-
-=travis:
-  type: perl
-  irc: irc.freenode.net#pkg
