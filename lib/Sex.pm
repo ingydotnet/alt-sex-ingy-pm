@@ -5,7 +5,7 @@ use strict qw(vars subs);
 srand;  # More exciting this way.
 
 use vars qw($VERSION);
-$VERSION = '0.10';
+$VERSION = '0.11';
 
 my @Grunts = ('Does it get bigger?',
               'I thought eight inches was longer than that.',
@@ -76,50 +76,5 @@ sub volunteer {
     my @volunteers = map {s/\.pmc?$//;s!/!::!g;$_} keys %INC;
     $volunteers[rand @volunteers];
 }
-
-=pod
-
-=encoding utf8
-
-=head1 NAME
-
-Sex - Perl teaches the birds and the bees.
-
-=head1 SYNOPSIS
-
-    package Sex::Oriented::Programming;
-    # The usual suspects + 3 volunteers
-    use Sex qw(Moose Mouse Mousse Moo Mo ? ? ?);
-
-=head1 DESCRIPTION
-
-This is like the Sex you get from Schwern, but '?' will pull in a random
-volunteer from %INC.
-
-=head1 BUGS
-
-There are many bugs you can get from having Sex used too often on your
-computer.  Please be sure your programs are Safe before they have Sex.
-
-    package Trojan;
-    use Sex qw(Safe Sex);
-
-=head1 AUTHORS
-
-Ingy 'The Alternative to Schwern' döt Net <ingy@cpan.org>
-
-Michael 'The Porn King of CMU' Schwern  <schwern@pobox.com>
-
-=head1 SEE ALSO
-
-'Disco Dolls in Hot Skin'
-
-'Exhausted:  The John Holmes Story'
-
-'Deep Recursion' starring Ada Lovelace.
-
-'The Fly' (1953)
-
-=cut
 
 return 'Harry balls anyone he wants!';
