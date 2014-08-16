@@ -5,7 +5,7 @@ use strict qw(vars subs);
 srand;  # More exciting this way.
 
 use vars qw($VERSION);
-$VERSION = '0.08';
+$VERSION = '0.09';
 
 my @Grunts = ('Does it get bigger?',
               'I thought eight inches was longer than that.',

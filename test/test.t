@@ -35,7 +35,7 @@ sub eqarray  {
     my($a1, $a2) = @_;
     return 0 unless @$a1 == @$a2;
     my $ok = 1;
-    for (0..$#{$a1}) { 
+    for (0..$#{$a1}) {
         unless($a1->[$_] eq $a2->[$_]) {
         $ok = 0;
         last;
